@@ -5,8 +5,8 @@ from transformers import GPT2TokenizerFast
 from concurrent.futures import ProcessPoolExecutor
 
 
-INPUT_FILE = "bookcorpus_cleaned.txt"
-OUTPUT_FILE = "bookcorpus_tokens.bin"
+INPUT_FILE = "wikitext-103.txt"
+OUTPUT_FILE = "wikitext103_tokens.bin"
 BATCH_SIZE = 1000
 NUM_WORKERS = os.cpu_count() 
 
